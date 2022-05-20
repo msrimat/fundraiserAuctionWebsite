@@ -1,0 +1,249 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1200px) and (max-width: 1920px){
+}
+
+@media (min-width: 1400px) {
+.header .container,
+.mainBanner .container { max-width: 1264px; }
+.container { max-width: 1264px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px){
+.supporting {margin-bottom: 60px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .content { margin-top: 96px; }
+    .joinUsForNight .image {flex: 0 0 515px;max-width: 515px;}
+    .mainBanner {padding-bottom: 50px;}
+    .evacuations {padding-top: 50px;}
+    .fatemaStory {padding-bottom: 50px;}
+    .fatemaStory2 {padding-top: 50px;}
+    .fatemaStory .fatemaStoryDetail {padding-top: 45px;}
+    .blockTitle {font-size: 30px;line-height: 35px;}
+    .fatemaStory .fatemaStoryDetail .continueButton {padding-top: 15px;}
+    .auction-gallery {padding: 60px 0px 65px;}
+    .grid-item.grid-text {margin-top: -15px;margin-left: 75px;}
+    .sectionTitle {margin-bottom: 15px;}
+    .supporting {padding: 50px 0px;margin-bottom: 50px;}
+    .supporting .leopard-corp .leopard {margin-top: 45px;}
+    .conference .c-background {padding: 15px;}
+    .conference .c-text-img {padding: 60px 45px 30px 75px;}
+    .c-text-img .svg-img {margin-bottom: 30px;}
+    .c-background .c-text-img .all-button {margin-top: 30px;}
+    .c-background .c-text {margin-top: 30px;}
+    .sectionTitle {font-size: 35px;line-height: 42px;}
+    .footer {margin-top: 80px;}
+    .footer .rsvp p {padding: 20px 0px;}
+    .btn {padding: 5px 12px;font-size: 14px;line-height: 16px;}
+    .navbar-nav .nav-item .nav-link {font-size: 14px;line-height: 18px;}
+    .navbar-nav .nav-item {margin: 0 6px;} 
+    .navbar-nav .nav-item {margin: 0 8px;} 
+    .joinUsForNight .mainDetail { flex: 0 0 400px; max-width: 400px; }
+    .joinUsForNight .mainDetail .rsvpButton { margin-left: 15px; }
+
+    /* inner-pg  */
+    .inner-pg .inner-content {padding-top: 190px;}
+    .event-schedule-pg .comman-detail-list {padding-bottom: 35px;} 
+    .team-list .row {margin: 0px -25px;}
+    .team-list [class^="col-"] {padding: 0px 25px;}
+    .team-block .image {height: 200px;}
+    .inner-pg .left-sidebar span {font-size: 24px;line-height: 30px;}
+    .comman-detail-block {margin-top: 50px;}
+}
+
+@media (max-width: 991px) { 
+    .navbar-nav .nav-item {margin: 6px 0px;}
+    .header .rsvpDonateButton {margin-top: 20px;}
+    .navbar-nav { padding-top: 36px; }
+    .navbar-nav .nav-item .nav-link {font-size: 14px;line-height: 16px;}
+    /* .header {padding: 36px 0px;z-index: 99;} */
+    .header.open {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    /* header .navbar .navbar-content {position: absolute;left: 0;right: 0;top: 36px;} */
+    .content { margin-top: 96px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .joinUsForNight .joinUsForNightContent { justify-content: center; }
+    .joinUsForNight .image {flex: 0 0 385px;max-width: 385px; margin-bottom: 25px; }
+    .joinUsForNight .mainDetail {flex: 0 0 380px;max-width: 380px; }
+    .mainBanner {padding-bottom: 50px;}
+    .joinUsForNight .mainDetail .rsvpButton {margin-left: 16px;}
+    .evacuations {padding-top: 50px;}
+    .fatemaStory {padding-bottom: 50px;}
+    .fatemaStory2 {padding-top: 50px;}
+    .bigDetail p {font-size: 18px;line-height: 22px;}
+    .fatemaStory .fatemaStoryDetail {padding-top: 45px;}
+    .blockTitle {font-size: 28px;line-height: 32px;}
+    .fatemaStory .fatemaStoryDetail .continueButton {padding-top: 15px;}
+    .auction-gallery {padding: 50px 0px 45px;}
+    .grid-item.grid-text {margin-top: -110px;margin-left: 175px;}
+    .sectionTitle {margin-bottom: 15px;}
+    .supporting {padding: 40px 0px;margin-bottom: 40px;}
+    .supporting .leopard-corp .leopard {margin-top: 35px;}
+    .conference .c-background {padding: 15px;}
+    .smallTitle {margin-bottom: 15px;font-size: 18px;line-height: 22px;}
+    .leopard-corp .image {margin-bottom: 15px;}
+    .conference .c-text-img {padding: 35px 30px 25px 35px;}
+    .c-text-img .svg-img {margin-bottom: 25px;}
+    .c-background .c-text-img .all-button {margin-top: 25px;}
+    .c-background .c-text {margin-top: 25px;}
+    .sectionTitle {font-size: 30px;line-height: 36px;}
+    .footer {margin-top: 60px;}
+    .footer .rsvp p {padding: 20px 0px;font-size: 22px;line-height: 26px;}
+
+    /* inner-pg  */
+    .inner-pg .inner-content {padding-top: 150px;}
+    .event-schedule-pg .comman-detail-list {padding-bottom: 20px;} 
+    .team-list .row {margin: 0px -20px;}
+    .team-list [class^="col-"] {padding: 0px 20px;}
+    .team-block .image {height: 200px;}
+    .team-block .team-button {padding-top: 15px;}
+    .inner-pg .left-sidebar span {font-size: 24px;line-height: 27px;}
+    .comman-detail-block {margin-top: 40px;}
+    .auction-pg .smallTitle {margin-bottom: 25px;}
+    .common-form .form-group {margin-bottom: 22px;}
+}
+
+@media (max-width: 767px) { 
+    .inner-pg .left-sidebar {background-color: transparent;max-width: unset;min-height: auto;display: block;}
+    .inner-pg .left-sidebar .overlay {display: none;}
+    .inner-pg .left-sidebar span {padding: 20px 0px;text-align: left;font-size: 24px;line-height: 28px;}
+    .inner-pg .inner-content {padding-top: 0;}
+    .event-schedule-pg .comman-detail-list {padding-bottom: 25px;}
+    .left-sidebar.is_stuck {position: relative !important;}
+    .team-list .row { margin: 0 -12px; }
+    .team-list [class^="col-"] {padding: 0px 12px;}
+    .grid-item.grid-text {margin-top: 0;margin-left: 0;}
+    .grid-item img { width: 100%; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .joinUsForNight .image {flex: 0 0 290px;max-width: 290px;}
+    .joinUsForNight .mainDetail {flex: 0 0 280px;max-width: 280px;flex-wrap: wrap;padding-left: 16px;}
+    .mainBanner {padding-bottom: 50px;}
+    .joinUsForNight .mainDetail .rsvpButton {margin-left: 0px;}
+    .bigDetail p {font-size: 16px;line-height: 18px;}
+    .joinUsForNight .mainDetail .rsvpButton .btn {min-width: 100px;}
+    .evacuations { padding-top: 35px; padding-bottom: 35px; }
+    .evacuations .evacuationsImage { text-align: center; padding-top: 25px; }
+    .fatemaStory {padding-bottom: 35px;}
+    .fatemaStory2 {padding-top: 35px;}
+    .btn {font-size: 14px;line-height: 16px;padding: 5px 12px;}
+    .fatemaStory .fatemaStoryDetail {padding-top: 35px;}
+    .fatemaStory .fatemaStoryImage {margin: 0 auto 15px; float: none;}
+    .fatemaStory .fatemaStoryImage img {margin: 0 auto;}
+    .blockTitle {font-size: 26px;line-height: 28px;}
+    .fatemaStory .fatemaStoryDetail .continueButton {padding-top: 10px;}
+    .auction-gallery {padding: 45px 0px 40px;}
+    .grid-item.grid-text {margin-top: -75px;margin-left: 170px;}
+    .sectionTitle {margin-bottom: 10px;}
+    .supporting {padding: 35px 0px;margin-bottom: 25px;}
+    .supporting .leopard-corp {margin-top: 35px;}
+    .conference .c-background {padding: 15px;}
+    .smallTitle {margin-bottom: 15px;font-size: 16px;line-height: 20px;}
+    .leopard-corp .image {margin-bottom: 15px;}
+    .grid-item {margin-bottom: 20px;}
+    .conference .c-text-img {padding: 35px 30px 25px 35px;}
+    .c-text-img .svg-img {margin-bottom: 20px;}
+    .c-background .c-text-img .all-button {margin-top: 20px;}
+    .c-background .c-text {margin-top: 20px;}
+    .sectionTitle {font-size: 28px;line-height: 34px;}
+    .footer {margin-top: 50px;}
+    p {margin-bottom: 15px;}
+    .footer .rsvp p {padding: 20px 0px;font-size: 22px;line-height: 26px;}
+    .comman-detail-block {margin-top: 30px;}
+    .auction-pg .smallTitle {margin-bottom: 20px;}
+    .common-form .form-group {margin-bottom: 20px;}
+    .team-block .image {height: 200px;}
+    .comman-detail-block .getInTouchButton {padding-top: 5px;}
+}
+
+/* @media (max-width: 767px) {
+
+} */
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+@media (max-width: 575px){
+    .joinUsForNight .image {flex: 0 0 355px;max-width: 355px;}
+    .joinUsForNight .mainDetail {flex: 0 0 253px;max-width: 253px;flex-wrap: wrap;padding-left: 0; padding-top: 20px;margin: 0px auto;}
+    .joinUsForNight .mainDetail .rsvpButton {margin-left: 0px;margin-top: 12px;}
+    .footer .rsvp p {font-size: 16px;line-height: 19px;}
+    .joinUsForNight .mainDetail p {margin-bottom: 4px;}
+    .smallTitle {font-size: 16px;line-height: 19px;margin-bottom: 12px;}
+    .bigDetail p {font-size: 16px;line-height: 19px;}
+    .joinUsForNight .mainDetail .rsvpButton .btn {min-width: 92px;}
+    .btn {font-size: 14px;line-height: 17px;}
+    .joinUsForNight .mainDetail .rsvpButton svg {width: 16px;}
+    .mainBanner {padding-bottom: 40px;padding-top: 0;}
+    .evacuations { padding-top: 35px; padding-bottom: 35px; }
+    .evacuations .evacuationsImage { text-align: center; padding-top: 25px; }
+    .fatemaStory .fatemaStoryDetail {padding-top: 40px;}
+    .subTitle {font-size: 12px;line-height: 14px;}
+    .blockTitle {font-size: 24px;line-height: 28px;margin-bottom: 16px;}
+    .fatemaStoryDetail .detail p {margin-top: 16px;}
+    .fatemaStory .fatemaStoryDetail .continueButton {padding-top: 16px;}
+    .fatemaStory {padding-bottom: 40px;}
+    .fatemaStory2 {padding-top: 40px;}
+    .auction-gallery {padding: 40px 0px 40px;}
+    .supporting {padding: 40px 0px;margin-bottom: 20px;}
+    .supporting .leopard-corp {display: block;}
+    .leopard-corp .image {margin: 16px 0px;}
+    .leopard-corp .leopard {margin-bottom: 60px;}
+    .leopard-corp .leopard:last-child {margin-bottom: 0px;}
+    .leopard-corp .leopard .smallTitle {margin-bottom: 0;}
+    .conference .c-background {padding: 12px;}
+    .conference .c-text-img {padding: 40px 20px;}
+    .c-text-img .svg-img {margin-bottom: 20px;}
+    .c-text-img .svg-img img {width: 20px;}
+    .c-background .c-text-img .all-button {margin-top: 20px;}
+    .c-background .c-text {margin-top: 40px;}
+    .sectionTitle {font-size: 20px;line-height: 24px;}
+    .footer {margin-top: 20px;}
+    
+    .inner-pg .left-sidebar span {font-size: 24px;line-height: 28px;}
+    .team-block {margin-bottom: 20px;}
+    .logo-image img {max-width: 170px;}
+    .auction-pg .smallTitle {margin-bottom: 20px;}
+    .common-form .form-group {margin-bottom: 16px;}
+    .team-list .get-touch-button {margin-top: 0px;}
+    .comman-detail-block {margin-top: 40px;}
+    .comman-detail-block .getInTouchButton {padding-top: 5px;}
+    .team-block {margin-bottom: 32px;}
+
+
+    .sectionTitle {font-size: 30px;line-height: 36px; margin-bottom: 15px;}
+    .blockTitle {font-size: 26px;line-height: 28px;}
+    .smallTitle {margin-bottom: 15px;font-size: 16px;line-height: 20px;}
+    .joinUsForNight .image { flex: 0 0 100%; max-width: 100%; margin-bottom: 30px; }
+    .joinUsForNight .mainDetail { flex: 0 0 100%; max-width: 100%; padding: 0 15px; flex-direction: column; }
+    .joinUsForNight .mainDetail .rsvpButton { margin: 15px 0 0; }
+    .conference .c-text-img { padding: 30px 15px; }
+    .fatemaStory .fatemaStoryImage { margin: 0 auto 15px; float: none; }
+    .c-background .c-text .sectionTitle { font-size: 16px; line-height: 22px; }
+    .mainBanner { padding-top: 30px; padding-bottom: 30px; }
+    .auction-gallery { padding: 30px 0; }
+    .artistArtList .artistArtBlock a { margin-bottom: 10px; }
+    .supporting { padding: 40px 0; margin-bottom: 20px; }
+    .supporting .leopard-corp { flex-direction: column; }
+    .grid-item { margin-bottom: 20px; }
+    
+    .footer { margin-top: 50px; }
+
+    .joinUsForNight .mainDetail{align-items: flex-start;}
+    .comman-detail-list .team-list .col-md-6{width: 33.33%;}
+    .team-block .image{height: 100px;}
+    
+    .artist-block{display: flex;align-items: center;}
+    .artistArt .mainImage .image img{min-width: 128px;}
+    .artistArtList-mbl{display: block;}
+    .artistArtList-mbl-d-none{display: none;}
+    .artistArtList .artistArtBlock a{padding-right: 0;font-size: 12px;margin-left: 16px;padding-left: 26px;line-height: 14px;}
+    
+}
+
+
+@media (min-width: 240px) and (max-width: 575px){
+}
+/*---------- Large Desktop , Large Screen End ----------*/
