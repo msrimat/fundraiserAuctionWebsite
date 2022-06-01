@@ -32,7 +32,14 @@ $(document).ready(function() {
 		activeClass: 'active', // class given to the active nav element
 		onPageChange: null,    // function(pageIndex) that is called when page is changed
 		topOffset: -101           // offste (in px) for fixed top navigation
-	}); 	
+	});
+
+  	// sticky-kit
+	$(".left-sidebar").stick_in_parent({
+		offset_top: 0,
+		parent: ".content", // note: we must now manually provide the parent
+		spacer: ".inner-pg",
+	});
 
 
 	// Masonry
