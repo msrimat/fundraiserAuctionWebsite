@@ -103,6 +103,7 @@
     .comman-detail-block {margin-top: 40px;}
     .auction-pg .smallTitle {margin-bottom: 25px;}
     .common-form .form-group {margin-bottom: 22px;}
+    .event-schedule-pg .comman-detail-block ul { margin-top: 30px; }
 }
 
 @media (max-width: 767px) { 
@@ -116,6 +117,7 @@
     .team-list [class^="col-"] {padding: 0px 12px;}
     .grid-item.grid-text {margin-top: 0;margin-left: 0;}
     .grid-item img { width: 100%; }
+    .event-schedule-pg .comman-detail-block ul { margin-top: 20px; }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
