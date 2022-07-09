@@ -522,6 +522,20 @@ p {
 	padding-right: 30px;
 }
 
+.sched a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: #F7F6F7;
+	padding-left: 0px;
+	text-align: left;
+	position: relative;
+	padding-right: 30px;
+	text-decoration: underline;
+}
+
 .artistArtList .artistArtBlock a:before {
 	position: absolute;
 	content: "\f067";
@@ -655,7 +669,7 @@ p {
 /* conference */
 
 .conference .c-text-img {
-	position: relative;		
+	position: relative;
 	background-color: #1E1E1E;
 	padding: 80px 60px 40px 100px;
 	z-index: 1;
@@ -670,7 +684,7 @@ p {
 }
 
 .c-text-img .svg-img {
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 
 .c-background .c-text-img .all-button {
@@ -763,6 +777,13 @@ p {
 
 .team-list .row {
 	margin: 0px -30px;
+}
+
+.extra {
+	margin: 10px 0px;
+}
+.extraa {
+	margin: 70px 0px;
 }
 
 .team-list .smallTitle {
@@ -884,7 +905,7 @@ p {
 }
 
 .profile-image {
-	margin-bottom: 32px;	
+	margin-bottom: 32px;
 }
 
 .simple-image {
@@ -938,23 +959,22 @@ p {
 /* gallery */
 
 .auction-gallery {
-	background-color: #1E1E1E;
 	padding: 80px 0px 100px;
 }
 
 .auction-gallery .subTitle, .auction-gallery .sectionTitle, .auction-gallery p {
-	color: #F7F6F7;
+	color: #1E1E1E;
 }
 
 .grid:after {
 	content: '';
 	display: block;
 	clear: both;
-} 
+}
 
 .grid-item {
 	margin-bottom: 30px;
-} 
+}
 
 .grid-item.grid-text {
 	margin-top: -70px;
@@ -979,12 +999,12 @@ p {
 /*==================================================================*/
 
 .footer.f-white {
-	background-color: #F7F6F7;	
+	background-color: #F7F6F7;
 }
 
 .footer {
 	margin-top: 100px;
-	background-color: #1E1E1E;	
+	background-color: #1E1E1E;
 }
 
 .footer .rsvp p {
