@@ -706,6 +706,18 @@ p {
 	margin-bottom: 0;
 }
 
+.centera{
+	text-align: center;
+}
+
+.colora{
+	color: #F7F6F7;
+	padding-top: 40px;
+	padding-bottom: 90px;
+	text-align: center;
+	font-weight: 550;
+}
+
 .c-background .c-text .sectionTitle span {
 	margin-bottom: 8px;
 }
@@ -966,6 +978,7 @@ p {
 	color: #1E1E1E;
 }
 
+
 .grid:after {
 	content: '';
 	display: block;
@@ -1034,7 +1047,37 @@ p {
 /*==================================================================*/
 /*========== Footer End ==========*/
 /*==================================================================*/
+.footerindex.f-white {
+	background-color: #F7F6F7;
+}
 
+.footerindex {
+	background-color: #1E1E1E;
+}
+
+.footerindex .rsvp p {
+	font-size: 24px;
+	line-height: 29px;
+	color: #F7F6F7;
+	font-weight: 700;
+	padding: 28px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.footerindex.f-white .rsvp p {
+	color: #000000;
+}
+
+.footerindex .rsvp p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footerindex .rsvp p a:hover {
+	opacity: 0.7;
+}
 
 
 .artistArtList-mbl{
