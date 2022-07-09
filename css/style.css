@@ -1083,3 +1083,24 @@ p {
 .artistArtList-mbl{
 	display: none;
 }
+
+.eventgallery div {
+    position: initial !important;
+}
+
+.remove-position {
+    height: auto !important;
+}
+
+.margintopminus {
+    margin-top: -2em !important;
+}
+
+.custom-btn {
+    border: 1px solid #000;
+    color: black;
+}
+
+.custom-btn:hover {
+    border: 1px solid #000 !important;
+}
